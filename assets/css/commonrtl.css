@@ -1,0 +1,181 @@
+@media (min-width: 800px) {
+	#PrimaryAction1Button, #PrimaryAction2Button, #SecondaryAction2Button, #PrimaryAction3Button, #SecondaryAction3Button, #TertiaryAction3Button {
+		font-size: 0.9em;
+	}
+}
+@media (max-width: 800px) {
+	#contact-buttons-bar {
+		display: none;
+	}
+	#PrimaryAction1Button, #PrimaryAction2Button, #SecondaryAction2Button, #PrimaryAction3Button, #SecondaryAction3Button, #TertiaryAction3Button {
+		font-size: 0.7em;
+	}
+}
+@media (max-width: 500px) {
+	#customModalDialogOneButton, #customModalDialogTwoButtons, #customModalDialogThreeButtons {
+		width: 90%;
+	}
+}
+
+#rtllayout{
+  margin-left: 0%;
+  direction:rtl;
+	margin-right: 20%;
+}
+@font-face {
+    font-family: 'IRANSansWeb';
+    src: url("/./fonts/IRANSansWeb_Light.ttf");
+    font-weight: 600;
+
+}
+@font-face {
+    font-family: 'IRANSansWeb';
+    src: url("/./fonts/IRANSansWeb.ttf");
+    font-weight: 400;
+
+}
+@font-face {
+    font-family: 'IRANSansWeb';
+    src: url("/./fonts/IRANSansWeb_Bold.ttf");
+    font-weight: 700;
+
+}
+@font-face {
+    font-family: 'IRANSansWeb';
+    src: url("/./fonts/IRANSansWeb_Medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'IRANSansWeb';
+    src: url("/./fonts/IRANSansWeb_UltraLight.ttf");
+    font-style: normal;
+    font-weight: 200;
+}
+body {
+  font-family: IRANSansWeb;
+}
+
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+#headLink, a {
+  color: #000000;
+}
+.modal-content  {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+#horizontalLine {
+	border-top: 1px solid #dedede !important;
+}
+
+#pageHeadTag, #miniPageHeadTag {
+	margin-top: 2% !important;
+}
+#miniPagelayout {
+	padding-top: 0% !important;
+}
+.panel-default {
+	border-radius: 0 !important;
+}
+#topbar {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+#PrimaryAction1Button {
+	border-radius: 0;
+	color: #fff;
+	background-color: #027fa3;
+	width: auto;
+}
+#PrimaryAction2Button {
+	border-radius: 0;
+	color: #fff;
+	background-color: #027fa3;
+	float: right;
+	margin-right: 1em;
+	width: auto;
+}
+#SecondaryAction2Button {
+	border-radius: 0;
+	color: #027fa3;
+	background-color: #fff;
+	border-color: #027fa3;
+	float: left;
+	margin-left: 1em;
+	width: auto;
+}
+#PrimaryAction3Button {
+	border-radius: 0;
+	color: #fff;
+	background-color: #027fa3;
+	float: right;
+	width: auto;
+}
+#SecondaryAction3Button {
+	border-radius: 0;
+	color: #027fa3;
+	background-color: #fff;
+	border-color: #027fa3;
+	float: left;
+	margin-left: 1em;
+	width: auto;
+}
+#TertiaryAction3Button {
+	border-radius: 0;
+	color: #027fa3;
+	background-color: #fff;
+	border-color: #027fa3;
+	width: auto;
+}
+#modalIconMessage {
+	width: 2em;
+}
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+@media screen and (min-width: 450px) {
+	.modal:before {
+	  content: '';
+	  display: inline-block;
+	  height: 100%;
+	  vertical-align: middle;
+	}
+}
+.modal-dialog {
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+#myModalOneButton, #myModalTwoButtons, #myModalThreeButtons {
+	display: none;
+}
+body {
+	padding-right: 0 !important;
+}
+.alert {
+	border-radius: 0;
+}
+.btn {
+	border-radius: 0;
+}
+#miniPagelayout {
+	padding-left: 0% !important;
+	padding-right: 0% !important;
+}
+textarea {
+    resize: none;
+}
+
+

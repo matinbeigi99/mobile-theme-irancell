@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)https://my.irancell.ir/chat -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="content-security-policy" content="default-src &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; data: wss: http: https: *.irancell.ir *.mtnirancell.ir">
+	<!--<meta http-equiv="content-security-policy" content="frame-ancestors sulqat.mtnirancell.ir media-src 'self' style-src 'self' 'unsafe-inline' script-src 'self' 'unsafe-inline' 'unsafe-eval'">-->
+	<title>Chat</title>
+    
+    
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="description" content="از همه امکانات برنامه کاربردی ایرانسل من بصورت آنلاین استفاده کنید.">
+<meta name="theme-color" content="#ffbe00">
+<meta name="author" content="">
+<link rel="icon" href="https://my.irancell.ir/favicon.ico">
+<title>ایرانسل | حساب ایرانسل من، مشاهده کارکرد، تنظیمات و ..</title>
+
+<!-- Bootstrap core CSS -->
+<link href="./bootstrap.min.css" rel="stylesheet">
+
+
+	<link href="./bootstrap-rtl.min.css" rel="stylesheet">
+
+
+<link href="./bootstrap-datepicker.min.css" rel="stylesheet">
+
+
+
+	<link rel="stylesheet" href="./contact-buttonsRTL.css">
+
+
+<link rel="stylesheet" href="./font-awesome.min.css">
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<link href="./ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<script type="text/javascript" async="" defer="" src="./piwik.js"></script><script src="./ie-emulation-modes-warning.js"></script>
+
+<link href="https://my.irancell.ir/stylesheets/footer.css" res="stylesheet">
+
+    
+	<link href="./chatiosrtl.css" rel="stylesheet">
+
+<link href="./commonrtl.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="./lightbox.min.css" rel="stylesheet">
+    
+</head>
+<body dir="rtl" class="" style="">
+
+<div id="language" style="display:none">fa</div>
+<div id="csrf" style="display:none">JkMMaaHL-66bmpe2mnZ0uZkwqWe242YMty48</div>
+<div id="device" style="display:none">pwa</div>
+<div id="OK" style="display:none">تایید</div>
+<div id="NPSSuccess" style="display:none">نظر شما با موفقیت ثبت شد. از مشارکت شما سپاسگزاریم.</div>
+<div id="NPSFailure" style="display:none">لطفا میزان رضایت خود از 'نحوه عملکرد کارشناس مربوطه' را در این گفتگو ثبت نمایید.</div>
+<div id="UploadOnlyImg" style="display:none">در حال حاضر، تنها عکس ارسال نمائید</div>
+<div id="UploadSmallFile" style="display:none">لطفا از حجم  کمتر از 8 مگابایت جهت ارسال استفاده نمائید.</div>
+<div id="UploadOnlyOneFile" style="display:none">لطفا یک گزینه جهت ارسال انتخاب نمائید!</div>
+<div id="FeedbackSaved" style="display:none">نظر شما با موفقیت ثبت شد. از مشارکت شما سپاسگزاریم.</div>
+<div id="FeedbackMessage" style="display:none">FeedbackMessage</div>
+<div id="pleaseRate" style="display:none">pleaseRate</div>
+
+<!-- 1 Button Modal STARTS -->
+<div class="modal fade" id="myModalOneButton" role="dialog" style="display: none; visibility: visible;">
+  <div class="modal-dialog" role="document" id="customModalDialogOneButton">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 0.5em 0em;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" style="padding:0.5em;">×</span>
+        </button>
+        <h4 class="modal-title" id="modalTitleMessage1"><center><img src="./warningIcon.png" id="modalIconMessage"></center></h4>
+      </div>
+      <div class="modal-body">
+        <span id="modalBodyMessage1">وقت بخیر،
+
+درخواست شما در صف انتظار قرار گرفته و به زودی به یکی از کارشناسان وصل خواهد شد.
+
+لطفا منتظر باشید...</span>
+      </div>
+      <div class="modal-footer">
+        <center>
+          <button type="button" class="btn btn-primary" id="PrimaryAction1Button" data-dismiss="modal" onclick="closeCustomAlertModal()">تایید</button>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 1 Button Modal ENDS -->
+
+<!-- 2 Button Modal STARTS -->
+<div class="modal fade" id="myModalTwoButtons" role="dialog">
+  <div class="modal-dialog" role="document" id="customModalDialogTwoButtons">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 0.5em 0em;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" style="padding:0.5em;">×</span>
+        </button>
+        <h4 class="modal-title" id="modalTitleMessage2"></h4>
+      </div>
+      <div class="modal-body">
+        <span id="modalBodyMessage2"></span>
+      </div>
+      <div class="modal-footer" style="padding: 0.5em 1em;">
+        <center>
+          <div class="col-xs-6 col-sm-6 col-md-6" id="NoPadding">
+            <button type="button" class="btn btn-secondary" id="SecondaryAction2Button" data-dismiss="modal"></button>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6" id="NoPadding">
+            <button type="button" class="btn btn-primary" id="PrimaryAction2Button"></button>
+          </div>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 2 Button Modal ENDS -->
+
+<!-- 3 Button Modal STARTS -->
+<div class="modal fade" id="myModalThreeButtons" role="dialog">
+  <div class="modal-dialog" role="document" id="customModalDialogThreeButtons">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 0.5em 1em;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" style="padding:0.5em;">×</span>
+        </button>
+        <h4 class="modal-title" id="modalTitleMessage3"></h4>
+      </div>
+      <div class="modal-body">
+        <span id="modalBodyMessage3"></span>
+      </div>
+      <div class="modal-footer" style="padding: 0.5em 0em;">
+        <center>
+          <div class="col-xs-6 col-sm-6 col-md-6" id="NoPadding">
+            <button type="button" class="btn btn-primary" id="SecondaryAction3Button"></button>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6" id="NoPadding">
+            <button type="button" class="btn btn-primary" id="PrimaryAction3Button"></button>
+          </div>
+          <br><br>
+          <div class="col-xs-12 col-sm-12 col-md-12" id="NoPadding">
+            <button type="button" class="btn btn-secondary" id="TertiaryAction3Button"></button>
+          </div>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 3 Button Modal ENDS -->
+
+
+<div class="chat-page-container">
+
+    <div class="chat-container">
+        
+        <ol id="chatTimeLine" class="chat" style="max-height:580px;overflow:auto">
+        <li class="other">
+<div class="msg">
+<p style="word-wrap: break-word;direction:rtl">وقت بخیر،
+</p>
+<p style="word-wrap: break-word;direction:rtl">
+</p>
+<p style="word-wrap: break-word;direction:rtl">هدایت هستم کارشناس شماره  1221
+</p>
+<p style="word-wrap: break-word;direction:rtl">
+</p>
+<p style="word-wrap: break-word;direction:rtl"> چطور میتونم کمکتون کنم؟</p>
+<time style="float:left;direction:ltr">2018-11-19 16:25</time></div></li><li class="self">
+<div class="msg">
+<p style="word-wrap: break-word;direction:rtl">سلام</p>
+<time style="float:left;direction:ltr">2018-11-19 16:25:39</time></div></li><li class="self">
+<div class="msg">
+<p style="word-wrap: break-word;direction:rtl">شماره پیگیری : 59614140</p>
+<time style="float:left;direction:ltr">2018-11-19 16:25:43</time></div></li><li class="other">
+<div class="msg">
+<p style="word-wrap: break-word;direction:rtl">بفرمایید لطفا...</p>
+<time style="float:left;direction:ltr">2018-11-19 16:25:50</time></div></li><li class="self">
+<div class="msg">
+<p style="word-wrap: break-word;direction:rtl">بررسی میکنید ببین در چه وضعیتی هست؟</p>
+<time style="float:left;direction:ltr">2018-11-19 16:26:09</time></div></li><li class="self">
+<div class="msg">
+<p style="word-wrap: break-word;direction:rtl">بررسی میکنید ببینید در چه وضعیتی هست؟</p>
+<time style="float:left;direction:ltr">2018-11-19 16:26:36</time></div></li><li class="other">
+<div class="msg">
+<p style="word-wrap: break-word;direction:rtl">با شما تماس گرفتند پاسخ ندادید درسته؟</p>
+<time style="float:left;direction:ltr">2018-11-19 16:27:42</time></div></li><li class="other">
+<div class="msg">
+<p style="word-wrap: break-word;direction:rtl">اعلام شده در اين خصوص مجدد با ايشان تماس حاصل خواهد شد منتظر باشید</p>
+<time style="float:left;direction:ltr">2018-11-19 16:28:11</time></div></li><li class="other">
+<div class="msg">
+<p style="word-wrap: break-word;direction:rtl">اگر سوال دیگری دارید، در خدمت شما هستم...</p>
+<time style="float:left;direction:ltr">2018-11-19 16:28:46</time></div></li><li class="other">
+<div class="msg">
+<p style="word-wrap: break-word;direction:rtl">با تشکر از اینکه با ما در ارتباط بودید در صورت نیاز ارتباط مجدد برقرار کنید</p>
+<time style="float:left;direction:ltr">2018-11-19 16:30:04</time></div></li><li class="other">
+<div class="msg">
+<p style="word-wrap: break-word;direction:rtl">این گفتگو به پایان رسید.</p>
+<time style="float:left;direction:ltr">2018-11-19 16:30</time></div></li><div class="day">Failed to get start chat</div></ol>
+        <div class="inputs-container" style="background-color:#ffffff">
+            
+                <div id="chat-buttons" style="display:none;direction=rtl;">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="row">
+                            <div class="col-xs-2 col-sm-2 col-md-2" style="padding-left:0%">
+                                <center>
+                                    <button id="btnSend" class="send-message"><img src="./Inactivesend.png">
+                                    </button>
+                                </center>
+                            </div>
+                            <div class="col-xs-8 col-sm-8 col-md-8">
+
+                                <textarea id="inputMessage" class="textarea" maxlength="500" rows="1" cols="20" type="text" placeholder="متن" style="overflow-wrap: break-word;padding:2.5%;margin-top:3%; max-height:100px; resize: none" onkeyup="new do_resize(this);" onpaste="new do_resize(this);"></textarea>
+                            </div>
+                            <div class="col-xs-2 col-sm-2 col-md-2" style="padding-right:0%;">
+                                <center>
+
+                                    <div class="image-upload">
+                                        <label for="chooseFile">
+                                            <img src="./newAttachImage.png" style="width:30px;height:30px;margin-top:25%;cursor: pointer;background-color:#ffffff">
+                                        </label>
+
+                                        <input type="file" name="chooseFile" id="chooseFile">
+                                    </div>
+
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div style="background-color:#d8e9ee;bottom:0px;color:#d8e9ee">MYIRANCELL CHAT</div>
+                        </div>
+                    </div> -->
+                </div>
+            
+            <div id="startChat-buttons" style="display: none;">
+                <center>
+                    <button id="startChat" class="send-message">شروع گفتگو</button>
+                </center>
+            </div>
+
+            <div id="connectInProgress" style="display: block;" focus="false">
+                <center>
+                    <button class="send-message">Connecting</button>
+                </center>
+            </div>
+
+            <div class="container" style="display: none;" id="nps-buttons">
+
+                <div class="row">
+                    
+                        <div class="col-xs-12 col-sm-12 col-md-12" style="direction:rtl;font-weight:bold;padding-top:1%;">
+                            <span>با هدف بهبود فرآیند پاسخگویی، لطفا میزان رضایت خود را از نحوه پاسخگویی کارشناس مربوطه ثبت نمایید.</span><br>
+                            <span></span><br>
+                            <span></span>
+                        </div>
+                    
+
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-8 col-sm-8 col-md-8" style="margin-top:1%;">
+                        <div id="stars-container">
+                            <span id="star1" class="star-inactive"></span>
+                            <span id="star2" class="star-inactive"></span>
+                            <span id="star3" class="star-inactive"></span>
+                            <span id="star4" class="star-inactive"></span>
+                            <span id="star5" class="star-inactive"></span>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4">
+                        <center>
+                            <button id="sendNPSBtn" class="send-message"><span class="submit">ثبت</span>
+                            </button>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./jquery-3.1.1.min.js"></script>
+<script src="./bootstrap.min.js"></script>
+<script src="./bootbox.min.js"></script>
+<script src="./lightbox.min.js"></script>
+<script src="./common.js"></script>
+<script src="./chat.js"></script>
+
+
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" href="https://my.irancell.ir/chat"></a><a class="lb-next" href="https://my.irancell.ir/chat"></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body></html>

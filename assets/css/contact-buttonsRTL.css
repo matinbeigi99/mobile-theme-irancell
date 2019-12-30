@@ -1,0 +1,107 @@
+/*!
+ * Contact Buttons Plugin Demo 0.1.0
+ * https://github.com/joege/contact-buttons-plugin
+ *
+ * Copyright 2015, José Gonçalves
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+ #contact-buttons-bar {
+  position: fixed;
+  bottom: 0px;
+  left: -25px;
+  width: 25px;
+}
+
+
+#contact-buttons-bar.slide-on-scroll {
+  position: absolute;
+}
+
+.contact-button-link  {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-radius: 0%;
+  padding: 0;
+  margin-bottom: 5px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 22px;
+  background: #8e8e93;
+  color: #fff;
+  position: relative;
+  left: 0;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+  -webkit-transition: all 250ms;
+     -moz-transition: all 250ms;
+          transition: all 250ms;
+}
+.contact-button-link:hover,
+.contact-button-link:focus,
+.contact-button-link:active {
+  color: #fff;
+}
+.contact-button-link.cb-hidden {
+  left: -25px;
+  display: none;
+}
+.contact-button-link.chat {
+  background: url("/images/telegram_chat.png") no-repeat;
+  background-size: cover;
+  border-radius: 0%;
+}
+
+.contact-button-link.telegram {
+  background: url("/images/telegram.png") no-repeat;
+  background-size: cover;
+  border-radius: 0%;
+}
+.contact-button-link.linkedin {
+  background: url("/images/linkeedin.png") no-repeat;
+  background-size: cover;
+  border-radius: 0%;
+}
+.contact-button-link.instagram {
+  background: url("/images/instaagram.png") no-repeat;
+  background-size: cover;
+  border-radius: 0%;
+}
+.contact-button-link.cloob {
+  background: url("/images/cloob.png") no-repeat;
+  background-size: cover;
+  border-radius: 0%;
+}
+.contact-button-link.lenzor {
+  background: url("/images/lenzor.png") no-repeat;
+  background-size: cover;
+  border-radius: 0%;
+}
+.contact-button-link.aparat {
+  background: url("/images/aparat.png") no-repeat;
+  background-size: cover;
+  border-radius: 0%;
+}
+/*
+.show-hide-contact-bar,
+.contact-button-link.show-hide-contact-bar:focus,
+.contact-button-link.show-hide-contact-bar:active {
+  color: #000;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  width: 25px;
+}
+.contact-button-link.show-hide-contact-bar:hover {
+  color: #000;
+  background: #ccc;
+  padding: 0;
+  width: 25px;
+}
+*/
